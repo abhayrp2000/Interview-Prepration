@@ -19,6 +19,9 @@
   - Trapping Rain Water
   - Rotate Image
   - Grouping Anagrams
+  - Maximum Subarray
+  - Pascal's Triangle
+  - Best Time to Buy and Sell Stock II
 
   
 
