@@ -17,6 +17,8 @@
   - Search in Rotated Sorted Array
   - Search Insert Position
   - Trapping Rain Water
+  - Rotate Image
+  - Grouping Anagrams
 
   
 
