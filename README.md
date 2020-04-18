@@ -25,6 +25,10 @@
   - Valid Palindrome
   - Single Number
   - Min Stack
+  - Number of Islands
+  - Happy Number
+  - Contains Duplicate
+  - Rotate Array
 
   
 
