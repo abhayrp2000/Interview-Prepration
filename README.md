@@ -22,6 +22,9 @@
   - Maximum Subarray
   - Pascal's Triangle
   - Best Time to Buy and Sell Stock II
+  - Valid Palindrome
+  - Single Number
+  - Min Stack
 
   
 
