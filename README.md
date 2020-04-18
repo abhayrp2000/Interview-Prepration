@@ -29,6 +29,7 @@
   - Happy Number
   - Contains Duplicate
   - Rotate Array
+  - Power of Two
 
   
 
