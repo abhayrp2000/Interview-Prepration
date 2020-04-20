@@ -3,9 +3,6 @@
 
 
 ### LEETCODE PROBLEMS
-
-
-
   - Two Sum
   - Median of Two Sorted Arrays
   - Reverse Integer
@@ -37,8 +34,12 @@
   - Reverse string
   - Find the difference
   
+### Sorting Algorithms
 
-  
+  - Selection Sort
+  - Bubble sort
+  - Insertion Sort
+
 
 
 
