@@ -30,6 +30,8 @@
   - Contains Duplicate
   - Rotate Array
   - Power of Two
+  - Product of Array Except Self
+  - Valid Anagram
 
   
 
