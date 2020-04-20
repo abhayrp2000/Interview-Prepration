@@ -39,6 +39,9 @@
   - Selection Sort
   - Bubble sort
   - Insertion Sort
+  - Merge sort
+  - Quick sort
+  - sorting a vector of pairs
 
 
 
