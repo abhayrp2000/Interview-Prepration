@@ -34,6 +34,9 @@
   - Valid Anagram
   - First Bad Version
   - Move Zeroes
+  - Reverse string
+  - Find the difference
+  
 
   
 
