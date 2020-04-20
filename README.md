@@ -32,6 +32,8 @@
   - Power of Two
   - Product of Array Except Self
   - Valid Anagram
+  - First Bad Version
+  - Move Zeroes
 
   
 
