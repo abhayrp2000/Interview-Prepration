@@ -77,6 +77,50 @@ void insertAtPositionP(node*&head,int p,int d){
     return;
 }
 
+
+void deleteAtHead(node *&head){
+    node *temp=head;
+    head=head->next;
+    delete temp;
+    return;
+}
+
+void deleteAtTail(node *&head){
+    
+    node *prev,*temp;
+    temp=head;
+    //Temp points to last,prev to last before
+    while (temp->next!=NULL)
+    {
+        prev=temp;
+        temp=temp->next;
+        
+    }
+
+    delete temp;
+    prev->next=NULL;
+    return;
+    
+}
+
+void deleteAtPositionP(node *&head,int p){
+    node*temp=head;
+    int jumps=1;
+
+    while (jumps<=p-1)
+    {
+        jumps=jumps+1;
+        temp=temp->next;
+        /* code */
+    }
+
+    node *tobedeleted=temp->next;
+    temp->next=temp->next->next;
+    delete tobedeleted;
+    return;
+    
+}
+
 int main(){
     node *head=NULL;
     insertAtHead(head,4);
@@ -85,6 +129,11 @@ int main(){
 
     insertAtPositionP(head,2,3);
     insertAtPositionP(head,6,5);
+
+    // deleteAtHead(head);
+    // deleteAtTail(head);
+
+    deleteAtPositionP(head,2);
 
 
     

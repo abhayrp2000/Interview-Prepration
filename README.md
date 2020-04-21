@@ -54,6 +54,7 @@
   - Insertion at head,any position and tail
   - length of linked list
   - print the linked list
+  - deletion at head,tail and position p
 
 
 
