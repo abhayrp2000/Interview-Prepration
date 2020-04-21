@@ -33,7 +33,8 @@
   - Move Zeroes
   - Reverse string
   - Find the difference
-  
+  - Fizz Buzz
+  - Minimum Moves to Equal Array Elements II
   
 ### Sorting Algorithms
 
