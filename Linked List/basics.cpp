@@ -182,14 +182,51 @@ void reverse(node *&head){
     
 }
 
+node *midPoint(node *head){
+    if(head==NULL || head->next==NULL){
+        return head;
+    }
+
+    node *slow=head;
+    node *fast=head->next;
+
+    while (fast!=NULL && fast->next!=NULL)
+    {
+        slow=slow->next;
+        fast=fast->next->next;
+    }
+
+    return slow;
+    
+}
+
+node *mergesortedlinkedlist(node *a,node*b){
+    if(a==NULL){
+        return b;
+    }else if(b==NULL){
+        return a;
+
+    }
+
+    node *c;
+    if(a->data<b->data){
+        c=a;
+        c->next=mergesortedlinkedlist(a->next,b);
+    }else{
+        c=b;
+        c->next=mergesortedlinkedlist(a,b->next);
+    }
+}
+
 int main(){
     node *head=NULL;
-    insertAtHead(head,4);
-    insertAtHead(head,2);
-    insertAtHead(head,1);
+    node *head2=NULL;
+    // insertAtHead(head,4);
+    // insertAtHead(head,2);
+    // insertAtHead(head,1);
 
-    insertAtPositionP(head,2,3);
-    insertAtPositionP(head,6,5);
+    // insertAtPositionP(head,2,3);
+    //insertAtPositionP(head,6,5);
 
     // // deleteAtHead(head);
     // // deleteAtTail(head);
@@ -209,8 +246,14 @@ int main(){
 
 
     // cin>>head;
-    reverse(head);
-    cout<<head;
+    // reverse(head);
+    cin>>head>>head2;
+    //cout<<head<<endl;
+    //node *mid=midPoint(head);
+    // cout<<"mid   "<<mid->data<<endl;
+    head=mergesortedlinkedlist(head,head2);
+    cout<<head<<endl;
+    
 
     
     

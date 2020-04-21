@@ -58,6 +58,8 @@
   - searching recursively,iteratively
   - building a linked list
   - reverse a linked list
+  - mid point of a linked list
+  - merging two sorted linked lists
 
 
 
