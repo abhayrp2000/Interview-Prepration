@@ -216,6 +216,25 @@ node *mergesortedlinkedlist(node *a,node*b){
         c=b;
         c->next=mergesortedlinkedlist(a,b->next);
     }
+    return c;
+}
+
+node *mergeSort(node *head){
+    if(head==NULL || head->next==NULL){
+        return head;
+    }
+
+    node *mid=midPoint(head);
+    node *a=head;
+    node *b=mid->next;
+    mid->next=NULL;
+
+    a=mergeSort(a);
+    b=mergeSort(b);
+
+    node *c=mergesortedlinkedlist(a,b);
+    return c;
+
 }
 
 int main(){
@@ -247,11 +266,11 @@ int main(){
 
     // cin>>head;
     // reverse(head);
-    cin>>head>>head2;
+    cin>>head;
     //cout<<head<<endl;
     //node *mid=midPoint(head);
     // cout<<"mid   "<<mid->data<<endl;
-    head=mergesortedlinkedlist(head,head2);
+    head=mergeSort(head);
     cout<<head<<endl;
     
 
