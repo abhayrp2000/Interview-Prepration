@@ -145,6 +145,43 @@ bool searchIterative(node *head,int key){
     
 }
 
+void buildList(node *&head){
+    int data;
+    cin>>data;
+    while (data!=-1)
+    {
+        insertAtTail(head,data);
+        cin>>data;
+    }
+    
+}
+
+istream& operator>>(istream &is,node *&head){
+    buildList(head);
+    return is;
+}
+
+ostream & operator<<(ostream &os,node *head){
+    print(head);
+    return os;
+}
+
+void reverse(node *&head){
+    node *curr,*prev,*n;
+    curr=head;
+    prev=NULL;
+    while (curr!=NULL)
+    {
+        n=curr->next;
+        curr->next=prev;
+        prev=curr;
+        curr=n;
+    }
+    
+    head=prev;
+    
+}
+
 int main(){
     node *head=NULL;
     insertAtHead(head,4);
@@ -154,25 +191,27 @@ int main(){
     insertAtPositionP(head,2,3);
     insertAtPositionP(head,6,5);
 
-    // deleteAtHead(head);
-    // deleteAtTail(head);
+    // // deleteAtHead(head);
+    // // deleteAtTail(head);
 
-    deleteAtPositionP(head,2);
-    if(searchRecursive(head,4)){
-        cout<<"Present"<<endl;
-    }else{
-        cout<<"Not present"<<endl;
-    }
+    // deleteAtPositionP(head,2);
+    // if(searchRecursive(head,4)){
+    //     cout<<"Present"<<endl;
+    // }else{
+    //     cout<<"Not present"<<endl;
+    // }
 
-    if(searchIterative(head,5)){
-        cout<<"Present"<<endl;
-    }else{
-        cout<<"Not present"<<endl;
-    }
+    // if(searchIterative(head,5)){
+    //     cout<<"Present"<<endl;
+    // }else{
+    //     cout<<"Not present"<<endl;
+    // }
 
+
+    // cin>>head;
+    reverse(head);
+    cout<<head;
 
     
-
-    print(head);
     
 }

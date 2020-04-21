@@ -56,6 +56,8 @@
   - print the linked list
   - deletion at head,tail and position p
   - searching recursively,iteratively
+  - building a linked list
+  - reverse a linked list
 
 
 
