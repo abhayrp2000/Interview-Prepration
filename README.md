@@ -55,6 +55,7 @@
   - length of linked list
   - print the linked list
   - deletion at head,tail and position p
+  - searching recursively,iteratively
 
 
 

@@ -121,6 +121,30 @@ void deleteAtPositionP(node *&head,int p){
     
 }
 
+bool searchRecursive(node *head,int key){
+    if(head==NULL){
+        return false;
+    }else if(head->data==key){
+        return true;
+    }else
+    {
+        searchRecursive(head->next,key);
+    }
+    
+}
+
+bool searchIterative(node *head,int key){
+    while (head!=NULL)
+    {
+        if(head->data==key){
+            return true;
+        }
+        head=head->next;
+    }
+    return false;
+    
+}
+
 int main(){
     node *head=NULL;
     insertAtHead(head,4);
@@ -134,6 +158,17 @@ int main(){
     // deleteAtTail(head);
 
     deleteAtPositionP(head,2);
+    if(searchRecursive(head,4)){
+        cout<<"Present"<<endl;
+    }else{
+        cout<<"Not present"<<endl;
+    }
+
+    if(searchIterative(head,5)){
+        cout<<"Present"<<endl;
+    }else{
+        cout<<"Not present"<<endl;
+    }
 
 
     
