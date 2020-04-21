@@ -35,6 +35,8 @@
   - Find the difference
   - Fizz Buzz
   - Minimum Moves to Equal Array Elements II
+  - Subarray Sum Equals K
+  - Palindromic Substrings
   
 ### Sorting Algorithms
 
