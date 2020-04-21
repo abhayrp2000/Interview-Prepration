@@ -50,6 +50,11 @@
 ### Greedy Algorithms
   - Activity selection
 
+### Linked List
+  - Insertion at head,any position and tail
+  - length of linked list
+  - print the linked list
+
 
 
 
