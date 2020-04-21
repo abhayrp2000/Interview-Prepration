@@ -47,6 +47,9 @@
   - Quick sort
   - sorting a vector of pairs
 
+### Greedy Algorithms
+  - Activity selection
+
 
 
 
