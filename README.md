@@ -37,6 +37,8 @@
   - Minimum Moves to Equal Array Elements II
   - Subarray Sum Equals K
   - Palindromic Substrings
+  - Linked List Cycle
+  - Middle of the linked list
   
 ### Sorting Algorithms
 

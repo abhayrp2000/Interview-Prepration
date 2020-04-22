@@ -237,6 +237,22 @@ node *mergeSort(node *head){
 
 }
 
+bool detectCycle(node *head){
+    node*slow=head;
+    node*fast=head;
+
+    while (fast!=NULL && fast->next!=NULL)
+    {
+        slow=slow->next;
+        fast=fast->next->next;
+        if(fast==slow){
+            return true;
+        }
+    }
+    return false;
+    
+}
+
 int main(){
     node *head=NULL;
     node *head2=NULL;
