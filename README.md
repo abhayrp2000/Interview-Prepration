@@ -39,6 +39,8 @@
   - Palindromic Substrings
   - Linked List Cycle
   - Middle of the linked list
+  - Linked List Cycle II
+  - Valid Parenthesis String
   
 ### Sorting Algorithms
 
