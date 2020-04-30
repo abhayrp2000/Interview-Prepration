@@ -79,6 +79,8 @@
   - merge sort for linked lists
   - Adding two numbers -Leetcode
   - Binary to decimal -Leetcode
+  - Delete Node -Leetcode
+  - Remove duplicates sorted linked list -Leetcode
 
 ### Binary Seach
   - Search in a rotated sotrted array
