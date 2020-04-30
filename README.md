@@ -48,6 +48,10 @@
   - NQueens
   - Sudoku Solver
   - Maximum element (sliding window)
+  - Implement strstr()
+  - Remove all adj duplicates in a string
+  - sort according to frequency
+  - backspace string compare
   
   
 ### Sorting Algorithms
