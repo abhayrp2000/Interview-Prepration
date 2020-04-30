@@ -72,6 +72,8 @@
 ### Binary Seach
   - Search in a rotated sotrted array
   - upper and lower bound
+  - kth root of a number
+  - aggressive cows 
 
 
 
