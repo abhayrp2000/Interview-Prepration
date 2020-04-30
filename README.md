@@ -74,6 +74,8 @@
   - upper and lower bound
   - kth root of a number
   - aggressive cows 
+  - book allocation
+  
 
 
 
