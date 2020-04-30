@@ -41,6 +41,9 @@
   - Middle of the linked list
   - Linked List Cycle II
   - Valid Parenthesis String
+  - Implement stack using Queues
+  - Implement queue using stacks
+  
   
 ### Sorting Algorithms
 
