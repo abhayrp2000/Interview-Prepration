@@ -45,6 +45,9 @@
   - Implement queue using stacks
   - Sliding Window Maximum
   - Design Circular Queue
+  - NQueens
+  - Sudoku Solver
+  - Maximum element (sliding window)
   
   
 ### Sorting Algorithms
