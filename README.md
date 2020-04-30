@@ -69,6 +69,10 @@
   - merging two sorted linked lists
   - merge sort for linked lists
 
+### Binary Seach
+  - Search in a rotated sotrted array
+  - upper and lower bound
+
 
 
 
