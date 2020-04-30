@@ -77,6 +77,8 @@
   - mid point of a linked list
   - merging two sorted linked lists
   - merge sort for linked lists
+  - Adding two numbers -Leetcode
+  - Binary to decimal -Leetcode
 
 ### Binary Seach
   - Search in a rotated sotrted array
