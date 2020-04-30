@@ -43,6 +43,8 @@
   - Valid Parenthesis String
   - Implement stack using Queues
   - Implement queue using stacks
+  - Sliding Window Maximum
+  - Design Circular Queue
   
   
 ### Sorting Algorithms
@@ -75,7 +77,7 @@
   - kth root of a number
   - aggressive cows 
   - book allocation
-  
+
 
 
 
