@@ -81,6 +81,9 @@
   - Binary to decimal -Leetcode
   - Delete Node -Leetcode
   - Remove duplicates sorted linked list -Leetcode
+  - Palindrome Linked list -Leetcode
+  - Linked List elements(Remove) -Leetcode
+  - next greater element -Leetcode
 
 ### Binary Seach
   - Search in a rotated sotrted array
