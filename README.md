@@ -92,6 +92,10 @@
   - remove zero sum elements -Leetcode
   - partition list -Leetcode
   - insertion sort -Leetcode
+  - remove duplicates II -Leetcode
+  - rotate list -Leetcode
+  - Merge k sorted list -Leetcode
+  
 
 ### Binary Seach
   - Search in a rotated sotrted array
