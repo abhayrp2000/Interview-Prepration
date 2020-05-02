@@ -84,6 +84,9 @@
   - Palindrome Linked list -Leetcode
   - Linked List elements(Remove) -Leetcode
   - next greater element -Leetcode
+  - Add two numbers II -Leetcode
+  - odd even linked list -Leetcode
+  - split linked list in parts -Leetcode
 
 ### Binary Seach
   - Search in a rotated sotrted array
