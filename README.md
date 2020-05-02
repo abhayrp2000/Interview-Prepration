@@ -87,6 +87,8 @@
   - Add two numbers II -Leetcode
   - odd even linked list -Leetcode
   - split linked list in parts -Leetcode
+  - Linkedlist components -Leetcode
+  - sort list -leetcode
 
 ### Binary Seach
   - Search in a rotated sotrted array
