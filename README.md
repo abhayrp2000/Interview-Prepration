@@ -89,6 +89,9 @@
   - split linked list in parts -Leetcode
   - Linkedlist components -Leetcode
   - sort list -leetcode
+  - remove zero sum elements -Leetcode
+  - partition list -Leetcode
+  - insertion sort -Leetcode
 
 ### Binary Seach
   - Search in a rotated sotrted array
