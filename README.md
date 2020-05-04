@@ -107,6 +107,12 @@
   - book allocation
 
 
+### Binary Tree
+  - Inorder traversal -Leetcode
+  - preorder traversal -Leetcode
+
+
+
 
 
 
