@@ -52,6 +52,8 @@
   - Remove all adj duplicates in a string
   - sort according to frequency
   - backspace string compare
+  - ransom note
+  - jewels and stones
   
   
 ### Sorting Algorithms
