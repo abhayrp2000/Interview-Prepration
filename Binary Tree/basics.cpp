@@ -69,6 +69,22 @@ int height(node *root){
     return max(ls,rs)+1;
 }
 
+int count(node *root){
+    if(root==NULL){
+        return 0;
+    }
+
+    return 1+count(root->left)+count(root->right);
+}
+
+int sumofnode(node *root){
+    if(root==NULL){
+        return 0;
+    }
+
+    return root->data+sumofnode(root->left)+sumofnode(root->right);
+}
+
 
 int main(){
     node *root=buildnode();

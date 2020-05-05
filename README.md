@@ -109,6 +109,7 @@
 
 ### Binary Tree
   - Basics
+  - count of nodes,sum of nodes
   - Inorder traversal -Leetcode
   - preorder traversal -Leetcode
   - Level order traversal I Leetcode
