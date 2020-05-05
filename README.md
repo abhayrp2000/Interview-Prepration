@@ -108,6 +108,7 @@
 
 
 ### Binary Tree
+  - Basics
   - Inorder traversal -Leetcode
   - preorder traversal -Leetcode
   - Level order traversal I Leetcode
