@@ -114,6 +114,8 @@
   - preorder traversal -Leetcode
   - Level order traversal I Leetcode
   - Level order traversal II Leetcode
+  - Diameter of a binary tree -Leetcode
+  - Binary tree is balanced or not -Leetcode
 
 
 
