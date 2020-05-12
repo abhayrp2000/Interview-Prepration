@@ -65,11 +65,33 @@ void print(Node *root){
     return;
 }
 
+bool search(Node *root,int data){
+    if(root==NULL){
+        return false;
+    }
+
+    if(root->data==data){
+        return true;
+    }
+
+    if(data<=root->data){
+        return search(root->left,data);
+    }else{
+        return search(root->right,data);
+    }
+}
+
 int main(){
 
     Node *root=NULL;
     root=build();
     print(root);
+
+    if(search(root,10)){
+        cout<<"present";
+    }else{
+        cout<<"Not present";
+    }
     
     
 }

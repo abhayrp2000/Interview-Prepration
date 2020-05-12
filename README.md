@@ -120,6 +120,7 @@
 
 ### Binaru Search Tree
   - insertion and bfs
+  - searching
 
 
 
