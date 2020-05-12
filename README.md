@@ -118,6 +118,9 @@
   - Binary tree is balanced or not -Leetcode
 
 
+### Binaru Search Tree
+  - insertion and bfs
+
 
 
 
