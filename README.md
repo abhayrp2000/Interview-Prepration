@@ -116,6 +116,8 @@
   - Level order traversal II Leetcode
   - Diameter of a binary tree -Leetcode
   - Binary tree is balanced or not -Leetcode
+  - Lowest Common ancestor -Leetcode
+  - Same tree -Leetcode
 
 
 ### Binaru Search Tree
