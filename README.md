@@ -118,6 +118,7 @@
   - Binary tree is balanced or not -Leetcode
   - Lowest Common ancestor -Leetcode
   - Same tree -Leetcode
+  - symmetric tree -Leetcode
 
 
 ### Binaru Search Tree
