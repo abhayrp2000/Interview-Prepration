@@ -81,10 +81,50 @@ bool search(Node *root,int data){
     }
 }
 
+
+Node *deleteinBST(Node *root,int key){
+    if(root==NULL){
+        return NULL;
+    }else if(key<root->data){
+        root->left=deleteinBST(root->left,key);
+        return root;
+    }else if(key==root->data){
+        if(root->left==NULL && root->right==NULL){
+            delete root;
+            return NULL;
+        }
+        if(root->left!=NULL && root->right==NULL){
+            Node* temp=root->left;
+            delete root;
+            return temp;
+        }
+        if(root->right!=NULL && root->left==NULL){
+            Node *temp=root->right;
+            delete root;
+            return temp;
+        }
+
+        Node *replace=root->right;
+        while(replace->left!=NULL){
+            replace=replace->left;
+        }
+
+        root->data=replace->data;
+        root->right=deleteinBST(root->right,replace->data);
+        return root;
+
+    }else{
+        root->right=deleteinBST(root->right,key);
+        return root;
+    }
+}
+
 int main(){
 
     Node *root=NULL;
     root=build();
+
+    root=deleteinBST(root,5);
     print(root);
 
     if(search(root,10)){
