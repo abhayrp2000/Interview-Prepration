@@ -121,10 +121,12 @@
   - symmetric tree -Leetcode
 
 
-### Binaru Search Tree
+### Binary Search Tree
   - insertion and bfs
   - searching
   - deletion
+  - bst from sorted array
+  - bst from in and pre order traversal
 
 
 
