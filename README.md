@@ -131,7 +131,8 @@
 
 ### Dynamic Programming
   - Fibonacci
-  
+  - MinCostClimbingStairs -Leetcode
+
 
 
 
