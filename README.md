@@ -54,6 +54,7 @@
   - backspace string compare
   - ransom note
   - jewels and stones
+  - Largest Number
   
   
 ### Sorting Algorithms
