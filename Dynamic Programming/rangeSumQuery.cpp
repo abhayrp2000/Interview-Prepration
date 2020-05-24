@@ -1,3 +1,5 @@
+//https://leetcode.com/problems/range-sum-query-immutable/
+
 class NumArray {
 public:
     vector<int> dp;
