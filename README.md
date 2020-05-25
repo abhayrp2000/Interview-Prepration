@@ -136,6 +136,8 @@
   - Climbing stairs -Leetcode
   - Coin Change -Leetcode
   - Range Sum Query -Leetcode 
+  - Longest Increasing Subsequence -Leetcode
+  - Longest Common Subsequence -Leetcode
 
 
 
