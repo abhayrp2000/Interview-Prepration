@@ -138,7 +138,7 @@
   - Range Sum Query -Leetcode 
   - Longest Increasing Subsequence -Leetcode
   - Longest Common Subsequence -Leetcode
-
+  - Is Subsequence -Leetcode
 
 
 
