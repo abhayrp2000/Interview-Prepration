@@ -141,6 +141,7 @@
   - Is Subsequence -Leetcode
   - Divisor Game -Leetcode
   - Matrix Sum Block -Leetcode
+  - Range Sum Query 2D - Immutable -Leetcode
 
 
 
