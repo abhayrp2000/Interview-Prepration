@@ -142,6 +142,8 @@
   - Divisor Game -Leetcode
   - Matrix Sum Block -Leetcode
   - Range Sum Query 2D - Immutable -Leetcode
+  - Minimum Path Sum- Leetcode
+  - Unique Paths -Leetcode
 
 
 
