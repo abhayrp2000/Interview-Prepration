@@ -120,6 +120,7 @@
   - Lowest Common ancestor -Leetcode
   - Same tree -Leetcode
   - symmetric tree -Leetcode
+  - Binary Tree Zigzag Level Order Traversal -Leetcode
 
 
 ### Binary Search Tree
@@ -128,6 +129,8 @@
   - deletion
   - bst from sorted array
   - bst from in and pre order traversal
+  - Two Sum IV - Input is a BST -Leetcode
+  - Kth Smallest Element in a BST -Leetcode
 
 
 ### Dynamic Programming
