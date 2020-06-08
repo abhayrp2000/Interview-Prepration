@@ -132,6 +132,10 @@
   - Two Sum IV - Input is a BST -Leetcode
   - Kth Smallest Element in a BST -Leetcode
 
+### Hashing
+  - How Many Numbers Are Smaller Than the Current Number -Leetcode
+  - N-Repeated Element in Size 2N Array -Leetcode
+
 
 ### Dynamic Programming
   - Fibonacci
