@@ -135,6 +135,7 @@
 ### Hashing
   - How Many Numbers Are Smaller Than the Current Number -Leetcode
   - N-Repeated Element in Size 2N Array -Leetcode
+  - Unique Number of Occurrences -Leetcode
 
 
 ### Dynamic Programming
