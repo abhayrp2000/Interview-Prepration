@@ -76,20 +76,45 @@ class Heap{
     }
 };
 
+//Building a max heap from a vector (inplace)
+void buildHeap(vector<int> &v){
+    
+    for(int i=2;i<v.size();i++){
+        int index=i;
+        int parent=i/2;
+
+        while(index>1 && v[index]>v[parent]){
+            swap(v[index],v[parent]);
+            index=parent;
+            parent=parent/2;
+        }
+    }
+}
+
+void printHeap(vector<int> &v){
+    for(auto val:v){
+        cout<<val<<" ";
+    }
+}
+
 
 int main(){
 
-    Heap h;
-    int n=10;
+    // Heap h(10,false);
+    // int n=10;
 
-    for(int i=0;i<n;i++){
-        h.push(i);
-    }
+    // for(int i=0;i<n;i++){
+    //     h.push(i);
+    // }
 
-    while(!h.isEmpty()){
-        cout<<h.top()<<endl;
-        h.pop();
-    }
+    // while(!h.isEmpty()){
+    //     cout<<h.top()<<endl;
+    //     h.pop();
+    // }
+
+    vector<int> v{-1,10,20,15,16,40,6};
+    buildHeap(v);
+    printHeap(v);
 
 
     return 0;
