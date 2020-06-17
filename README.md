@@ -136,6 +136,7 @@
   - How Many Numbers Are Smaller Than the Current Number -Leetcode
   - N-Repeated Element in Size 2N Array -Leetcode
   - Unique Number of Occurrences -Leetcode
+  - zero sum subarray
 
 
 ### Dynamic Programming
@@ -152,6 +153,12 @@
   - Range Sum Query 2D - Immutable -Leetcode
   - Minimum Path Sum- Leetcode
   - Unique Paths -Leetcode
+
+## Heap 
+  - Basics -insertion,deletion,print
+  - Merge k sorted arrays
+  - hotel visit
+
 
 
 
