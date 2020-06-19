@@ -159,6 +159,9 @@
   - Merge k sorted arrays
   - hotel visit
 
+## Graph
+  - Adj List
+
 
 
 
