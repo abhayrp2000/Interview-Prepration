@@ -160,7 +160,9 @@
   - hotel visit
 
 ## Graph
-  - Adj List
+  - Adj List for unweighted and weighted graphs
+  - breadth first search
+  - shortest path from a single node
 
 
 
