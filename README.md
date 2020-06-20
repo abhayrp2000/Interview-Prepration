@@ -165,7 +165,9 @@
   - shortest path from a single node
   - dfs
   - number of components in the graph
-  - topological sort
+  - topological sort -dfs
+  - topological sort -bfs
+  - check if graph is a tree
   
 
 
