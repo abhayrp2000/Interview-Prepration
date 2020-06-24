@@ -34,7 +34,8 @@ int knapsackTopdown(vector<int> & profits,vector<int> &weights,int capacity,int 
     }
     int profit2=knapsackTopdown(profits,weights,capacity,index+1,dp);
 
-    return max(profit1,profit2);
+    dp[index][capacity]=max(profit1,profit2);
+    return dp[index][capacity];
 }
 
 int main(){
