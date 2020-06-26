@@ -160,6 +160,7 @@
   - longest palindromic substring
   - longest palindromic subsequence
   - count of number of palindromic substring
+  - longest commom substring
 
 ## Heap 
   - Basics -insertion,deletion,print
