@@ -153,6 +153,13 @@
   - Range Sum Query 2D - Immutable -Leetcode
   - Minimum Path Sum- Leetcode
   - Unique Paths -Leetcode
+  - Equal partition subset
+  - subsets of a given sum
+  - Rod cutting
+  - house theif
+  - longest palindromic substring
+  - longest palindromic subsequence
+  - count of number of palindromic substring
 
 ## Heap 
   - Basics -insertion,deletion,print
@@ -168,6 +175,8 @@
   - topological sort -dfs
   - topological sort -bfs
   - check if graph is a tree
+  - djikstra
+  - floof fill
   
 
 
