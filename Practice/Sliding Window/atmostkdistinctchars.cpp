@@ -9,6 +9,8 @@ class LongestSubstringKDistinct {
   static int findLength(const string& str, int k) {
     int maxLength = 0;
 
+    map<char,int> mp;
+
     int start=0;
 
     for(int end=0;end<str.size();end++){
@@ -16,7 +18,7 @@ class LongestSubstringKDistinct {
       while(mp.size()>k){
         mp[str[start]]--;
         if(mp[str[start]]==0){
-          mp.erase(mp[str[start]]);
+          mp.erase(str[start]);
         }
         start++;
       }
