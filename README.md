@@ -179,6 +179,8 @@
   - check if graph is a tree
   - djikstra
   - floof fill
+  - Bellman Ford
+  - Travelling salesman Problem
   
 
 
