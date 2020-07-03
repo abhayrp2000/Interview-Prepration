@@ -13,9 +13,15 @@ int graph[][4] = { { 0, 10, 15, 20 },
 //Current example n=4
 //1<<n = 16 (10000)
 //1<<n = 15 (1111)
+
+int dp[16][4];
 int tsp(int mask,int pos){
     if(mask==visited_check){
         return graph[pos][0];
+    }
+
+    if(dp[mask][pos]!=-1){
+        return dp[mask][pos];
     }
 
     int ans=INT_MAX;
@@ -26,10 +32,16 @@ int tsp(int mask,int pos){
         }
         
     }
-    return ans;
+    dp[mask][pos]=ans;
+    return dp[mask][pos];
 }
 
 int main(){
+    for(int i=0;i<(1<<n);i++){
+        for(int j=0;j<n;j++){
+            dp[i][j]=-1;
+        }
+    }
     cout<<tsp(1,0);
     return 0;
 }
