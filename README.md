@@ -69,6 +69,7 @@
 
 ### Greedy Algorithms
   - Activity selection
+  - Maximize toys
 
 ### Linked List
   - Insertion at head,any position and tail
